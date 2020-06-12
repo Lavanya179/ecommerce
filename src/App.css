@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+.navbar,
+.filterSection {
+  margin-bottom: 20px;
+}
+.productGrid {
+  margin-bottom: 15px;
+}
+.dashboard .bg-primary {
+  background: #3f51b5 !important;
+}
+.dashboard .bg-primary a {
+  color: #fff !important;
+}
+.list-group-item {
+  font-size: 12px;
+}
+.thumbnail {
+  padding-top: 70%;
+  background-repeat: no-repeat;
+  background-position: center -40px;
+}
+.badge-count {
+  float: right;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  opacity: 0.5;
+}
+
+@media (max-width: 400px) {
+  .thumbnail {
+    padding-top: 55%;
+  }
+}
